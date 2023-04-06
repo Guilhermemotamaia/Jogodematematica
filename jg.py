@@ -5,7 +5,9 @@ print('-='*20)
 print('Bem vindo ao jogo de matemática'.upper())
 print('-='*20)
 
-cont = 0
+acertosjogador1 = 0
+acertosjogador2 = 0
+acertosjogador3 = 0
 
 numerodaquestao1 = 1
 numerodaquestao2 = 1
@@ -25,7 +27,7 @@ while True:
                 if respostadojogador == resposta:
                     sleep(0.3)
                     print(f'A resposta certa é {resposta}! Parabéns, você acertou!!')
-                    cont +=1
+                    acertosjogador1 += 1
                     numerodaquestao1 +=1
                     sleep(1)
                 else:
@@ -48,7 +50,7 @@ while True:
                 if respostadojogador == resposta:
                     sleep(0.3)
                     print(f'A resposta certa é {resposta}! Parabéns, você acertou!!')
-                    cont +=1
+                    acertosjogador1 += 1
                     numerodaquestao1 += 1
                     sleep(1)
                 else:
@@ -71,7 +73,7 @@ while True:
                 if respostadojogador == resposta:
                     sleep(0.3)
                     print(f'A resposta certa é {resposta}! Parabéns, você acertou!!')
-                    cont +=1
+                    acertosjogador1 += 1
                     numerodaquestao1 += 1
                     sleep(1)
                 else:
@@ -93,7 +95,7 @@ while True:
                 if respostadojogador == resposta:
                     sleep(0.3)
                     print(f'A resposta certa é {resposta}! Parabéns, você acertou!!')
-                    cont +=1
+                    acertosjogador1 += 1
                     numerodaquestao1 += 1
                     sleep(1)
                 else:
@@ -118,7 +120,7 @@ while True:
                 if respostadojogador == resposta:
                     sleep(0.3)
                     print(f'A resposta certa é {resposta}! Parabéns, você acertou!!')
-                    cont +=1
+                    acertosjogador2 += 1
                     numerodaquestao2 += 1
                     sleep(1)
                 else:
@@ -136,13 +138,13 @@ while True:
                 numero = randint(1,400), randint(1,100)
                 resposta = numero[0] / numero[1]
 
-                respostadojogador = int(input(f'{numerodaquestao2}ª questão: {numero[0]} x {numero[1]} ='))
+                respostadojogador = int(input(f'{numerodaquestao2}ª questão: {numero[0]} / {numero[1]} ='))
 
 
                 if respostadojogador == resposta:
                     sleep(0.3)
                     print(f'A resposta certa é {resposta}! Parabéns, você acertou!!')
-                    cont +=1
+                    acertosjogador2 += 1
                     numerodaquestao2 += 1
                     sleep(1)
                 else:
@@ -161,12 +163,12 @@ while True:
                 numero = randint(1,300), randint(1,300)
                 resposta = numero[0] - numero[1]
 
-                respostadojogador = int(input(f'{numerodaquestao2}ª questão: {numero[0]} x {numero[1]} ='))
+                respostadojogador = int(input(f'{numerodaquestao2}ª questão: {numero[0]} - {numero[1]} ='))
 
                 if respostadojogador == resposta:
                     sleep(0.3)
                     print(f'A resposta certa é {resposta}! Parabéns, você acertou!!')
-                    cont +=1
+                    acertosjogador2 += 1
                     numerodaquestao2 += 1
                     sleep(1)
                 else:
@@ -180,13 +182,13 @@ while True:
         elif simbolo == '+':
             while True:
                 numero = randint(1,300), randint(1,600)
-                respostadojogador = int(input(f'{numerodaquestao2}ª questão: {numero[0]} x {numero[1]} ='))
+                respostadojogador = int(input(f'{numerodaquestao2}ª questão: {numero[0]} + {numero[1]} ='))
                 resposta = numero[0] + numero[1]
 
                 if respostadojogador == resposta:
                     sleep(0.3)
                     print(f'A resposta certa é {resposta}! Parabéns, você acertou!!')
-                    cont +=1
+                    acertosjogador2 += 1
                     numerodaquestao2 += 1
                     sleep(1)
                 else:
@@ -208,7 +210,7 @@ while True:
                 if respostadojogador == resposta:
                     sleep(0.3)
                     print(f'A resposta certa é {resposta}! Parabéns, você acertou!!')
-                    cont +=1
+                    acertosjogador3 += 1
                     numerodaquestao3 += 1
                     sleep(1)
                 else:
@@ -229,7 +231,7 @@ while True:
                 if respostadojogador == resposta:
                     sleep(0.3)
                     print(f'A resposta certa é {resposta}! Parabéns, você acertou!!')
-                    cont +=1
+                    acertosjogador3 += 1
                     numerodaquestao3 += 1
                     sleep(1)
                 else:
@@ -254,7 +256,7 @@ while True:
                 if respostadojogador == resposta:
                     sleep(0.3)
                     print(f'A resposta certa é {resposta}! Parabéns, você acertou!!')
-                    cont +=1
+                    cacertosjogador3 += 1
                     numerodaquestao3 += 1
                     sleep(1)
                 else:
@@ -274,7 +276,7 @@ while True:
                 if respostadojogador == resposta:
                     sleep(0.3)
                     print(f'A resposta certa é {resposta}! Parabéns, você acertou!!')
-                    cont +=1
+                    cacertosjogador3 += 1
                     numerodaquestao3 += 1
                     sleep(1)
                 else:
